@@ -13,7 +13,7 @@ function HookCounter2() {
     console.log("Use effect: updating document title");
   }, [count]);
   //  In order to conditionally render an effect, pass the 2nd parameter, which is array.
-  //Pass state and props to the array which need to watch for, If they change effect will be executed.
+  // Pass state and props to the array which need to watch for, If they change effect will be executed.
 
   return (
     <div>
